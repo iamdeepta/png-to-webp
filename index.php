@@ -1,10 +1,10 @@
 <?php 
 
-$imgLocationBefore = 'close-dark.png';
+$imgLocationBefore = 'symptoms-bg.jpg';
 
-$imgLocationAfter = 'close-dark.webp';
+$imgLocationAfter = 'symptoms-bg.webp';
 
-$img = imagecreatefrompng($imgLocationBefore);
+$img = imagecreatefromjpeg($imgLocationBefore);
 imagepalettetotruecolor($img);
 imagealphablending($img, true);
 imagesavealpha($img, true);
